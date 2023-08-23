@@ -1,3 +1,17 @@
 {
-    "isInspectable": true
+    "isInspectable": {
+        "rules": [
+            {
+                "condition": "include",
+                "udid": ["7C847ECC-D4F2-4C0B-9DA5-F555CDDBAD22"]
+            },
+            {
+                "condition": "exclude",
+                "version": {
+                    "upper": "10.60.0"
+                }
+            }
+        ],
+        "value": true
+    }
 }
