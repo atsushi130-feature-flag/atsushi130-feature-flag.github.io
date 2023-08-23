@@ -13,5 +13,29 @@
             }
         ],
         "value": true
+    },
+    "swiftActivationCenterEnabled": {
+        "rules": [
+            {
+                "condition": "include",
+                "udid": ["2C418401"]
+            },
+            {
+                "condition": "include",
+                "version": {
+                    "lower": "10.70.0"
+                }
+            }
+        ],
+        "value": true
+    },
+    "sampleValue": {
+        "rules": [
+            {
+                "condition": "exclude",
+                "udid": ["2C418401"]
+            }
+        ],
+        "value": "Sample"
     }
 }
