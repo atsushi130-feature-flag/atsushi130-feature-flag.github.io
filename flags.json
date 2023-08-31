@@ -18,7 +18,7 @@
         "rules": [
             {
                 "condition": "include",
-                "udid": ["2C418401"]
+                "sku": ["2C418401"]
             },
             {
                 "condition": "include",
@@ -33,7 +33,7 @@
         "rules": [
             {
                 "condition": "exclude",
-                "udid": ["2C418401"]
+                "sku": ["2C418401"]
             }
         ],
         "value": "Sample"
