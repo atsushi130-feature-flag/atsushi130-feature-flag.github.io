@@ -7,7 +7,7 @@
                 "sku": ["2C418401"]
             }
         ],
-        "enabled": "true"
+        "enabled": true
     },
     "fetchTiming": {
         "whenEnterForeground": true
