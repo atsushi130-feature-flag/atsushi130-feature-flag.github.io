@@ -8,6 +8,7 @@
             {
                 "condition": "exclude",
                 "version": {
+                    "lower": null,
                     "upper": "10.60.0"
                 }
             }
@@ -23,7 +24,8 @@
             {
                 "condition": "include",
                 "version": {
-                    "lower": "10.70.0"
+                    "lower": "10.70.0",
+                    "upper": null
                 }
             }
         ],
