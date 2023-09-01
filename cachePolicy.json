@@ -1,3 +1,15 @@
 {
-    "interval": 3000
+    "interval": 3000,
+    "forceRefetch": {
+        "rules": [
+            {
+                "condition": "exclude",
+                "sku": ["2C418401"]
+            }
+        ],
+        "enabled": "true"
+    },
+    "fetchTimimg": {
+        "whenEnterForeground": true
+    }
 }
